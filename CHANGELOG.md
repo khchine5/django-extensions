@@ -1,6 +1,23 @@
 Changelog
 =========
 
+1.9.0
+-----
+
+The change to --no-startup/--use-pythonrc in `shell_plus` changes the
+default behaviour to automatically load PYTHONSTARTUP and ~/.pythonrc.py
+unless --no-startup is set.
+
+Changes:
+ - Fix: pipchecker, fix up-to-date check for Github sha commits
+ - Fix: JSONField, fix handling to_python() for strings with tests
+ - Improvement: shell_plus, update PYTHONSTARTUP / pythonrc handling to match Django
+ - Improvement: runserver_plus, startup message now accounts for https
+ - Docs: jobs, improve documentation about jobs scheduling
+ - Docs: admin, add documentation for ForeignKeyAutocompleteStackedInline and ForeignKeyAutocompleteTabularInline
+ - Docs: fix typos
+
+
 1.8.1
 -----
 
