@@ -2,6 +2,35 @@ Changelog
 =========
 
 
+1.9.6
+-----
+
+Fix boo-boo with release version in django_extensions/__init__.py
+
+
+1.9.4
+-----
+
+Changes:
+ - Fix missing test case
+
+
+1.9.3
+-----
+
+Changes:
+ - Tests: shell_plus, simple test for get_imported_objects
+
+
+1.9.2
+-----
+
+Changes:
+ - Fix: mail_debug, regression in mail_debug for older Pythons
+ - Fix: shell_plus, SyntaxError on exec(), python compatibility
+ - Fix: ForeignKeyAutocompleteAdminMixin, use text/plain
+
+
 1.9.1
 -----
 
